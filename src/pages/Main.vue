@@ -1,5 +1,9 @@
 <template>
     <div>
+        <let-it-snow
+                v-bind="snowConf"
+                :show="show"
+        ></let-it-snow>
         <div class="page-header page-header-small">
             <parallax
                     class="page-header-image"
@@ -8,7 +12,7 @@
             </parallax>
             <div class="content-center">
                 <div class="container">
-                    <h1 class="title">Авторские новогодние ёлки!</h1>
+                    <h1 class="title top-header">Новогодние авторские ёлки</h1>
                     <div class="text-center">
                         <a href="#pablo" class="btn btn-primary btn-icon btn-round">
                             <i class="fab fa-facebook-square"></i>
@@ -20,6 +24,65 @@
                 </div>
             </div>
         </div>
+        <div class="section section-team text-center">
+            <div class="container">
+                <h2 class="text-center gold">  Мы создали услугу по созданию новогоднего настроения, которая не имеет аналогов в городе Харьков</h2>
+                <h2 class="gold"> Jingle bells... <span>Скоро Новый Год и мы уже приготовились - собрали милые игрушки
+                    эксклюзивных производителей Европы и США, вдохновились работами лучших декораторов
+                    мира, создали несоклько вариантов авторских ёлок, а для особых ценителей новогоднего
+                    настроения и чего-то новенького подготовили увлекательную программу по украшению ёлки
+                    с Вашими близкими.</span></h2>
+                <div class="team">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="team-player">
+                                <img
+                                        src="img/avatar.jpg"
+                                        alt="Thumbnail Image"
+                                        class="rounded-circle img-fluid img-raised"
+                                />
+                                <h2 class="title">Создадим полный look ёлки</h2>
+                                <!--<p class="category text-primary">Model</p>-->
+                                <p class="description text-left">
+                                    Помощь в приобретении ёлки, игрушек и декора у производителей Европы и США по наилучшей цене в Украине<br>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="team-player">
+                                <img
+                                        src="img/ryan.jpg"
+                                        alt="Thumbnail Image"
+                                        class="rounded-circle img-fluid img-raised"
+                                />
+                                <h2 class="title">Украсим ёлку</h2>
+                                <!--<p class="category text-primary">Designer</p>-->
+                                <p class="description">
+                                    Декорирование ёлки и лайфхаки по оформлению Вашего дома
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="team-player">
+                                <img
+                                        src="img/eva.jpg"
+                                        alt="Thumbnail Image"
+                                        class="rounded-circle img-fluid img-raised"
+                                />
+                                <h2 class="title">А также послепраздничный разбор украишенийr</h2>
+                                <!--<p class="category text-primary">Fashion</p>-->
+                                <p class="description">
+                                    После праздников приедем и наведем порядок
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <div class="section section-about-us">
             <div class="container">
                 <div class="row">
@@ -80,41 +143,7 @@
                 </div>
             </div>
         </div>
-        <div class="section section-team text-left">
-            <div class="container">
-                <h2 class="title text-center">Что входит в программу</h2>
-                <div class="team">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <p class="blockquote blockquote-primary">
-                                <small>Создадим полный look ёлки и игрушек</small><br>
-                                Наш декор от лучших производителей Европы и США
-                                <br />
-                                <!--<small>-NOAA</small>-->
-                            </p>
-                        </div>
-                        <div class="col-md-4">
-                            <p class="blockquote blockquote-primary">
-                                <small>Украсим ёлку и помещение</small>
 
-                                <br />
-                                <br />
-                                <!--<small>-NOAA</small>-->
-                            </p>
-                        </div>
-
-                            <div class="col-md-4">
-                                <p class="blockquote blockquote-primary">
-                                    <small>А также послепраздничный разбор украишений</small>
-                                    <br />
-                                    <br />
-                                    <!--<small>-NOAA</small>-->
-                                </p>
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="section section-show-decor">
             <div class="container">
                 <h2 class="title text-center">Вдохновляемся</h2>
@@ -197,7 +226,7 @@
             [Button.name]: Button,
             [FormGroupInput.name]: FormGroupInput,
             Tabs,
-            TabPane
+            TabPane,
         },
         data() {
             return {
@@ -205,12 +234,35 @@
                     firstName: '',
                     email: '',
                     message: ''
-                }
+                },
+                snowConf: {
+                    windPower : 1,
+                    speed : 3,
+                    count : 12,
+                    size : 10,
+                    opacity : 1,
+                    images: ['/img/snow/snowflake_silver.png',
+                            '/img/snow/snowflake_silver.png',
+                            'https://raw.githubusercontent.com/bob-chen/let_it_snow/master/demo/snow.png']
+                },
+                show: false
             };
+        },
+        mounted(){
+            this.show = true
         }
     }
 </script>
 
 <style scoped>
+
+    .top-header{
+        font-size: 5em;
+        letter-spacing: 2px;
+    }
+
+    .team-player h2{
+        letter-spacing: 1px;
+    }
 
 </style>

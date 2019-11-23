@@ -2,14 +2,24 @@ body{
     color: $black-color;
     font-size: $font-size-base;
     font-family: $elf-family;
+    font-weight: normal;
+    font-style: normal;
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
 }
 
+p{
+    font-family: $sans-serif-family;
+}
+
 .main{
     position: relative;
     background: $white-color;
+}
+
+.gold{
+    color: $primary-color;
 }
 /* Animations */
 .nav-pills .nav-link,

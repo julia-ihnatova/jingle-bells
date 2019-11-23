@@ -7659,6 +7659,13 @@ vue-lazyload@^1.2.6:
   version "1.2.6"
   resolved "https://registry.yarnpkg.com/vue-lazyload/-/vue-lazyload-1.2.6.tgz#baa04c172d52a812608eb12c7a6bfb14f5c91079"
 
+vue-let-it-snow@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/vue-let-it-snow/-/vue-let-it-snow-1.0.0.tgz#5dda5db204e7ef2510c1a432dd802cdc7b330ca0"
+  integrity sha512-y8PMRiL8EtVqycJBISA5ZycwnTl399sH9/4O0ThoOSOAmyriVZJvOTCR1ZzGiX39NLF5f0kHY1WPyH0yRAi2aA==
+  dependencies:
+    vue "^2.4.4"
+
 vue-loader@^15.6.2:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-15.6.2.tgz#892741d96260936ff69e892f72ec361ba4d100d2"
@@ -7674,6 +7681,13 @@ vue-router@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.0.2.tgz#dedc67afe6c4e2bc25682c8b1c2a8c0d7c7e56be"
   integrity sha512-opKtsxjp9eOcFWdp6xLQPLmRGgfM932Tl56U9chYTnoWqKxQ8M20N7AkdEbM5beUh6wICoFGYugAX9vQjyJLFg==
+
+vue-snowf@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/vue-snowf/-/vue-snowf-0.0.2.tgz#83d0757b95ce34f33d7c4aa88b8d962f9d20a18c"
+  integrity sha1-g9B1e5XONPM9fEqoi42WL50goYw=
+  dependencies:
+    vue "^2.1.10"
 
 vue-style-loader@^4.1.0:
   version "4.1.2"
@@ -7698,6 +7712,11 @@ vue-template-es2015-compiler@^1.8.2:
 vue2-transitions@^0.2.3:
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/vue2-transitions/-/vue2-transitions-0.2.3.tgz#69c9d75b1db05f231b80980c03459d68490ba27d"
+
+vue@^2.1.10, vue@^2.4.4:
+  version "2.6.10"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.10.tgz#a72b1a42a4d82a721ea438d1b6bf55e66195c637"
+  integrity sha512-ImThpeNU9HbdZL3utgMCq0oiMzAkt1mcgy3/E6zWC/G6AaQoeuFdsl9nDhTDU3X1R6FK7nsIUuRACVcjI+A2GQ==
 
 vue@^2.6.6:
   version "2.6.6"
