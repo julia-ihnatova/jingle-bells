@@ -33,7 +33,7 @@
   }
 
   &.page-header-small{
-      min-height: 60vh;
+      min-height: 440px;
       max-height: 440px;
   }
 
@@ -72,12 +72,19 @@
 
     }
 
-  .title{
+  .top-title{
     background-color: rgba(255, 255, 255, 0.5);
-    //margin: 0;
-    padding-bottom: 30px;
     box-shadow: 0 0 8px 8px white;
     border-radius: 10px;
+  }
+
+  h2{
+    font-family: $sans-serif-family;
+    padding-bottom: 30px;
+  }
+
+  .title{
+    margin-bottom: 0;
   }
 
     footer{

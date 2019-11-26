@@ -7,6 +7,7 @@ textarea{
 }
 h1,h2,h3,h4,h5,h6{
     font-weight: $font-weight-normal;
+    font-family: $elf-family;
 }
 
 small{
@@ -67,8 +68,9 @@ h6, .h6{
 }
 p{
     line-height: 1.61em;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 1.2em;
+    font-family: $sans-serif-family;
 }
 
 .title{
@@ -93,7 +95,7 @@ p{
 .card-description,
 .footer-big p{
     color: $dark-gray;
-    font-weight: $font-weight-light;
+    //font-weight: $font-weight-light;
 }
 .category{
     text-transform: capitalize;

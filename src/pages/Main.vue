@@ -12,7 +12,10 @@
             </parallax>
             <div class="content-center">
                 <div class="container">
-                    <h1 class="title top-header">Новогодние авторские ёлки</h1>
+                    <div class="top-title">
+                        <h1 class="title top-header">Новогодние авторские ёлки</h1>
+                        <h2>от PremiumArtStudio</h2>
+                    </div>
                     <div class="text-center">
                         <a href="#pablo" class="btn btn-primary btn-icon btn-round">
                             <i class="fab fa-facebook-square"></i>
@@ -26,7 +29,7 @@
         </div>
         <div class="section section-team text-center">
             <div class="container">
-                <h2 class="text-center gold">  Мы создали услугу по созданию новогоднего настроения, которая не имеет аналогов в городе Харьков</h2>
+                <h2 class="text-center gold">  Мы создали услугу по созданию новогоднего настроения,<br> которая не имеет аналогов в городе Харьков</h2>
                 <h2 class="gold"> Jingle bells... <span>Скоро Новый Год и мы уже приготовились - собрали милые игрушки
                     эксклюзивных производителей Европы и США, вдохновились работами лучших декораторов
                     мира, создали несоклько вариантов авторских ёлок, а для особых ценителей новогоднего
@@ -37,28 +40,35 @@
                         <div class="col-md-4">
                             <div class="team-player">
                                 <img
-                                        src="img/avatar.jpg"
+                                        src="img/img1.jpg"
                                         alt="Thumbnail Image"
                                         class="rounded-circle img-fluid img-raised"
                                 />
                                 <h2 class="title">Создадим полный look ёлки</h2>
                                 <!--<p class="category text-primary">Model</p>-->
                                 <p class="description text-left">
-                                    Помощь в приобретении ёлки, игрушек и декора у производителей Европы и США по наилучшей цене в Украине<br>
+                                    Поможем приобрести елку, игрушки и новогодний декор у производителей Европы и США
+                                    по наилучшим ценам в Украине.<br><br>
+                                    Подберем стилистику, более всего подходящую Вашему характеру помещения.
                                 </p>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="team-player">
                                 <img
-                                        src="img/ryan.jpg"
+                                        src="img/img2.jpg"
                                         alt="Thumbnail Image"
                                         class="rounded-circle img-fluid img-raised"
                                 />
                                 <h2 class="title">Украсим ёлку</h2>
                                 <!--<p class="category text-primary">Designer</p>-->
-                                <p class="description">
-                                    Декорирование ёлки и лайфхаки по оформлению Вашего дома
+                                <p class="description text-left">
+                                    Наша команда справится с этим занятием за несколько часов вместо Вас, если
+                                    вдруг Вы не находите времени для этого действа.<br><br>
+
+                                    Для тех, кто хочет провести это событие (украшение елки) с особым настроением,
+                                    разделить его с детьми и близкими - мы приготовили программу с лайфхаками от
+                                    декораторов. Будет интересно!
                                 </p>
                             </div>
                         </div>
@@ -66,14 +76,14 @@
                         <div class="col-md-4">
                             <div class="team-player">
                                 <img
-                                        src="img/eva.jpg"
+                                        src="img/img3.jpg"
                                         alt="Thumbnail Image"
                                         class="rounded-circle img-fluid img-raised"
                                 />
-                                <h2 class="title">А также послепраздничный разбор украишенийr</h2>
+                            <h2 class="title">Уборка ёлки после праздника</h2>
                                 <!--<p class="category text-primary">Fashion</p>-->
                                 <p class="description">
-                                    После праздников приедем и наведем порядок
+                                    Послепраздничный ритуал выхода в новый год сохраняя прекрастное настроение.
                                 </p>
                             </div>
                         </div>
@@ -81,69 +91,6 @@
                 </div>
             </div>
         </div>
-
-
-        <div class="section section-about-us">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 ml-auto mr-auto text-center">
-                        <h2 class="title">Что мы делаем?</h2>
-                        <!--<h5 class="description">-->
-                            <!--Jingle bells... Скоро Новый Год и мы уже приготовились - собрали милые игрушки-->
-                            <!--эксклюзивных производителей Европы и США, вдохновились работами лучших декораторов-->
-                            <!--мира, создали несоклько вариантов авторских ёлок, а для особых ценителей новогоднего-->
-                            <!--настроения и чего-то новенького подготовили увлекательную программу по украшению ёлки-->
-                            <!--с Вашими близкими.-->
-                        <!--</h5>-->
-                    </div>
-                </div>
-                <div class="separator separator-primary"></div>
-                <div class="section-story-overview">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div
-                                    class="image-container image-left"
-                                    style="background-image: url('img/decor/art-deco-003.jpg')"
-                            >
-                                <!-- First image on the left side -->
-                                <p class="blockquote blockquote-primary">
-                                    "Over the span of the satellite record, Arctic sea ice has
-                                    been declining significantly, while sea ice in the
-                                    Antarctichas increased very slightly"
-                                    <br />
-                                    <br />
-                                    <small>-NOAA</small>
-                                </p>
-                            </div>
-                            <!-- Second image on the left side of the article -->
-                            <div
-                                    class="image-container"
-                                    style="background-image: url('img/decor/art-deco-001.jpg')"
-                            ></div>
-                        </div>
-                        <div class="col-md-5">
-                            <!-- First image on the right side, above the article -->
-                            <div
-                                    class="image-container image-right"
-                                    style="background-image: url('img/decor/art-deco-23.jpg')"
-                            ></div>
-                            <h3>
-                                So what does the new record for the lowest level of winter ice
-                                actually mean
-                            </h3>
-                            <p>
-                                Jingle bells... Скоро Новый Год и мы уже приготовились - собрали милые игрушки
-                                эксклюзивных производителей Европы и США, вдохновились работами лучших декораторов
-                                мира, создали несоклько вариантов авторских ёлок, а для особых ценителей новогоднего
-                                настроения и чего-то новенького подготовили увлекательную программу по украшению ёлки
-                                с Вашими близкими.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <div class="section section-show-decor">
             <div class="container">
                 <h2 class="title text-center">Вдохновляемся</h2>
