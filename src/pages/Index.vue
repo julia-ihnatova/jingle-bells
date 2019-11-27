@@ -1,112 +1,223 @@
 <template>
   <div>
-    <div class="page-header clear-filter" filter-color="orange">
+    <let-it-snow
+            v-bind="snowConf"
+            :show="show"
+    ></let-it-snow>
+    <div class="page-header page-header-small">
       <parallax
-        class="page-header-image"
-        style="background-image:url('img/header.jpg')"
+              class="page-header-image"
+              style="background-image: url('img/ourBg.jpg')"
       >
       </parallax>
-      <div class="container">
-        <div class="content-center brand">
-          <img class="n-logo" src="img/now-logo.png" alt="" />
-          <h1 class="h1-seo">Now UI Kit.</h1>
-          <h3>A beautiful Bootstrap 4 UI kit. Yours free.</h3>
+      <div class="content-center">
+        <div class="container">
+          <div class="top-title">
+            <h1 class="title top-header">Новогодние авторские ёлки</h1>
+            <h2>от PremiumArtStudio</h2>
+          </div>
+          <div class="text-center">
+            <a href="#" class="btn btn-primary btn-icon btn-round">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="#" class="btn btn-primary btn-icon btn-round">
+              <i class="fab fa-google-plus"></i>
+            </a>
+          </div>
         </div>
-        <h6 class="category category-absolute">
-          Designed by
-          <a href="http://invisionapp.com/" target="_blank">
-            <img src="img/invision-white-slim.png" class="invision-logo" /> </a
-          >. Coded by
-          <a href="https://www.creative-tim.com" target="_blank">
-            <img
-              src="img/creative-tim-white-slim2.png"
-              class="creative-tim-logo"
-            /> </a
-          >.
-        </h6>
       </div>
     </div>
-    <div class="main">
-      <div class="section section-images">
-        <div class="container">
+    <div class="section section-team text-center">
+      <div class="container">
+        <h2 class="text-center gold">  Мы создали услугу по созданию новогоднего настроения,<br> которая не имеет аналогов в городе Харьков</h2>
+        <h2 class="gold"> Jingle bells... <span>Скоро Новый Год и мы уже приготовились - собрали милые игрушки
+                    эксклюзивных производителей Европы и США, вдохновились работами лучших декораторов
+                    мира, создали несоклько вариантов авторских ёлок, а для особых ценителей новогоднего
+                    настроения и чего-то новенького подготовили увлекательную программу по украшению ёлки
+                    с Вашими близкими.</span></h2>
+        <div class="team">
           <div class="row">
-            <div class="col-md-12">
-              <div class="hero-images-container">
-                <img src="img/hero-image-1.png" alt="" />
+            <div class="col-md-4">
+              <div class="team-player">
+                <img
+                        src="img/img1.jpg"
+                        alt="Thumbnail Image"
+                        class="rounded-circle img-fluid img-raised"
+                />
+                <h2 class="title">Создадим полный look ёлки</h2>
+                <!--<p class="category text-primary">Model</p>-->
+                <p class="description text-left">
+                  Поможем приобрести елку, игрушки и новогодний декор у производителей Европы и США
+                  по наилучшим ценам в Украине.<br><br>
+                  Подберем стилистику, более всего подходящую Вашему характеру помещения.
+                </p>
               </div>
-              <div class="hero-images-container-1">
-                <img src="img/hero-image-2.png" alt="" />
+            </div>
+            <div class="col-md-4">
+              <div class="team-player">
+                <img
+                        src="img/img2.jpg"
+                        alt="Thumbnail Image"
+                        class="rounded-circle img-fluid img-raised"
+                />
+                <h2 class="title">Украсим ёлку</h2>
+                <!--<p class="category text-primary">Designer</p>-->
+                <p class="description text-left">
+                  Наша команда справится с этим занятием за несколько часов вместо Вас, если
+                  вдруг Вы не находите времени для этого действа.<br><br>
+
+                  Для тех, кто хочет провести это событие (украшение елки) с особым настроением,
+                  разделить его с детьми и близкими - мы приготовили программу с лайфхаками от
+                  декораторов. Будет интересно!
+                </p>
               </div>
-              <div class="hero-images-container-2">
-                <img src="img/hero-image-3.png" alt="" />
+            </div>
+
+            <div class="col-md-4">
+              <div class="team-player">
+                <img
+                        src="img/img3.jpg"
+                        alt="Thumbnail Image"
+                        class="rounded-circle img-fluid img-raised"
+                />
+                <h2 class="title">Уборка ёлки после праздника</h2>
+                <!--<p class="category text-primary">Fashion</p>-->
+                <p class="description">
+                  Послепраздничный ритуал выхода в новый год сохраняя прекрастное настроение.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <basic-elements></basic-elements>
-    <navigation></navigation>
-    <tabs-section></tabs-section>
-    <progress-pagination></progress-pagination>
-    <notifications></notifications>
-    <typography></typography>
-    <javascript-components></javascript-components>
-    <carousel-section></carousel-section>
-    <nucleo-icons-section></nucleo-icons-section>
-    <div class="section">
-      <div class="container text-center">
-        <div class="row justify-content-md-center">
-          <div class="col-md-12 col-lg-8">
-            <h2 class="title">Completed with examples</h2>
-            <h5 class="description">
-              The kit comes with three pre-built pages to help you get started
-              faster. You can change the text and images and you're good to go.
-              More importantly, looking at them will give you a picture of what
-              you can built with this powerful Bootstrap 4 ui kit.
-            </h5>
-          </div>
+    <div class="section section-show-decor">
+      <div class="container">
+        <h2 class="title text-center">Вдохновляемся!</h2>
+        <div class="row">
+          <tabs
+                  pills
+                  class="nav-align-center"
+                  tab-content-classes="gallery"
+                  tab-nav-classes="nav-pills-just-icons"
+                  type="primary"
+          >
+            <tab-pane title="Profile">
+              <p slot="label" class="now-ui-icons">Paris</p>
+              <!--<i slot="label" class="now-ui-icons design_image"></i>-->
+
+              <div class="col-md-10 ml-auto mr-auto">
+                <div class="row collections">
+                  <div class="col-md-6">
+                    <img src="img/tabs/paris1.jpg" class="img-raised" />
+                    <img src="img/tabs/paris3.jpg" alt="" class="img-raised" />
+                  </div>
+                  <div class="col-md-6">
+                    <img src="img/tabs/paris4.jpg" alt="" class="img-raised" />
+                    <img src="img/tabs/paris2.jpg" alt="" class="img-raised" />
+                  </div>
+                </div>
+              </div>
+            </tab-pane>
+
+            <tab-pane title="Home">
+                <p slot="label" class="now-ui-icons">Wien</p>
+              <!--<i slot="label" class="now-ui-icons location_world"></i>-->
+
+              <div class="col-md-10 ml-auto mr-auto">
+                <div class="row collections">
+                  <div class="col-md-6">
+                    <img src="img/tabs/wien1.jpg" alt="" class="img-raised" />
+                    <img src="img/tabs/wien4.jpg" alt="" class="img-raised" />
+                  </div>
+                  <div class="col-md-6">
+                    <img src="img/tabs/wien3.jpg" alt="" class="img-raised" />
+                    <img src="img/tabs/wien2.jpg" alt="" class="img-raised" />
+                  </div>
+                </div>
+              </div>
+            </tab-pane>
+
+            <tab-pane title="Messages">
+                <p slot="label" class="now-ui-icons">London</p>
+              <!--<i slot="label" class="now-ui-icons sport_user-run"></i>-->
+
+              <div class="col-md-10 ml-auto mr-auto">
+                <div class="row collections">
+                  <div class="col-md-6">
+                    <img src="img/tabs/london1.jpg" alt="" class="img-raised" />
+                    <img src="img/tabs/london3.jpg" alt="" class="img-raised" />
+                  </div>
+                  <div class="col-md-6">
+                    <img src="img/tabs/london4.jpg" alt="" class="img-raised" />
+                    <img src="img/tabs/london2.jpg" class="img-raised" />
+                  </div>
+                </div>
+              </div>
+            </tab-pane>
+          </tabs>
         </div>
+
       </div>
+
     </div>
-    <signup-form></signup-form>
-    <examples-section></examples-section>
-    <download-section></download-section>
+
   </div>
 </template>
-<script>
-import { Parallax } from '@/components';
-import BasicElements from './components/BasicElementsSection';
-import Navigation from './components/Navigation';
-import TabsSection from './components/Tabs';
-import ProgressPagination from './components/ProgressPagination';
-import Notifications from './components/Notifications';
-import Typography from './components/Typography';
-import JavascriptComponents from './components/JavascriptComponents';
-import CarouselSection from './components/CarouselSection';
-import NucleoIconsSection from './components/NucleoIconsSection';
-import SignupForm from './components/SignupForm';
-import ExamplesSection from './components/ExamplesSection';
-import DownloadSection from './components/DownloadSection';
 
-export default {
-  name: 'index',
-  bodyClass: 'index-page',
-  components: {
-    Parallax,
-    BasicElements,
-    Navigation,
-    TabsSection,
-    ProgressPagination,
-    Notifications,
-    Typography,
-    JavascriptComponents,
-    CarouselSection,
-    NucleoIconsSection,
-    SignupForm,
-    ExamplesSection,
-    DownloadSection
-  }
-};
+<script>
+    import { Button, FormGroupInput } from '@/components';
+    import { Tabs, TabPane } from '@/components';
+
+    export default {
+        name: "Main",
+        bodyClass: 'landing-page',
+        components: {
+            [Button.name]: Button,
+            [FormGroupInput.name]: FormGroupInput,
+            Tabs,
+            TabPane,
+        },
+        data() {
+            return {
+                form: {
+                    firstName: '',
+                    email: '',
+                    message: ''
+                },
+                snowConf: {
+                    windPower : 1,
+                    speed : 3,
+                    count : 12,
+                    size : 10,
+                    opacity : 1,
+                    images: ['/img/snow/snowflake_silver.png',
+                        '/img/snow/snowflake_silver.png',
+                        'https://raw.githubusercontent.com/bob-chen/let_it_snow/master/demo/snow.png']
+                },
+                show: false
+            };
+        },
+        mounted(){
+            this.show = true
+        }
+    }
 </script>
-<style></style>
+
+<style scoped>
+
+  .top-header{
+    font-size: 5em;
+    letter-spacing: 2px;
+  }
+
+  .team-player h2{
+    letter-spacing: 1px;
+  }
+
+  .nav-pills.nav-pills-just-icons .nav-item .nav-link p {
+      line-height: 80px;
+      font-size: 24px;
+  }
+
+</style>

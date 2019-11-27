@@ -75,7 +75,7 @@
           rel="tooltip"
           title="Like us on Facebook"
           data-placement="bottom"
-          href="https://www.facebook.com/CreativeTim"
+          href="#"
           target="_blank"
         >
           <i class="fab fa-facebook-square"></i>
@@ -88,7 +88,7 @@
           rel="tooltip"
           title="Follow us on Instagram"
           data-placement="bottom"
-          href="https://www.instagram.com/CreativeTimOfficial"
+          href="#"
           target="_blank"
         >
           <i class="fab fa-instagram"></i>

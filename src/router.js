@@ -18,50 +18,23 @@ export default new Router({
     mode: 'history',
   routes: [
       {
-          path: '/main',
-          name: 'main',
-          components: { default: Main, header: OurNavbar, footer: MainFooter },
-          props: {
-              header: { colorOnScroll: 400 },
-              footer: { backgroundColor: 'black' }
-          }
-      },
-
-      {
       path: '/',
       name: 'index',
-      components: { default: Index, header: MainNavbar, footer: MainFooter },
+      components: { default: Index, header: OurNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: 'black' }
       }
     },
-    {
-      path: '/landing',
-      name: 'landing',
-      components: { default: Landing, header: MainNavbar, footer: MainFooter },
-      props: {
-        header: { colorOnScroll: 400 },
-        footer: { backgroundColor: 'black' }
-      }
-    },
-    {
-      path: '/login',
-      name: 'login',
-      components: { default: Login, header: MainNavbar },
-      props: {
-        header: { colorOnScroll: 400 }
-      }
-    },
-    {
-      path: '/profile',
-      name: 'profile',
-      components: { default: Profile, header: MainNavbar, footer: MainFooter },
-      props: {
-        header: { colorOnScroll: 400 },
-        footer: { backgroundColor: 'black' }
-      }
-    },
+    // {
+    //   path: '/landing',
+    //   name: 'landing',
+    //   components: { default: Landing, header: MainNavbar, footer: MainFooter },
+    //   props: {
+    //     header: { colorOnScroll: 400 },
+    //     footer: { backgroundColor: 'black' }
+    //   }
+    // },
 
 
   ],
