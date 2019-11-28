@@ -93,6 +93,11 @@
     </div>
     <div class="section section-show-decor">
       <div class="container">
+        <div class="row justify-center">
+          <div class="col-md-4 text-center">
+            <a href="/price" class="main-link">Узнать цены</a>
+          </div>
+        </div>
         <h2 class="title text-center">Вдохновляемся!</h2>
         <div class="row">
           <tabs
@@ -218,6 +223,11 @@
   .nav-pills.nav-pills-just-icons .nav-item .nav-link p {
       line-height: 80px;
       font-size: 24px;
+  }
+
+  .justify-center{
+    margin-top: -45px;
+    margin-bottom: 45px;
   }
 
 </style>
