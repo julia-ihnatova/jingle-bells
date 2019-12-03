@@ -8,14 +8,14 @@
   >
     <template slot-scope="{ toggle, isToggled }">
       <router-link v-popover:popover1 class="navbar-brand" to="/">
-        PremiumArtStudio
+        NikasStudio
       </router-link>
     </template>
     <template slot="navbar-menu">
       <li class="nav-item">
         <a
           class="nav-link"
-          href="/price"
+          href="#/price"
         >
           <!--&lt;!&ndash;<i class="now-ui-icons arrows-1_cloud-download-93"></i>&ndash;&gt;-->
           <p>Прайс</p>

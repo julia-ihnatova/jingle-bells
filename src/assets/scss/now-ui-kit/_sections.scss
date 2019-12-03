@@ -33,8 +33,8 @@
   }
 
   &.page-header-small{
-      min-height: 440px;
-      max-height: 440px;
+      min-height: 500px;
+      max-height: 500px;
   }
 
   &:before{
@@ -57,18 +57,18 @@
     }
 
     .content-center{
-      position: absolute;
-      top: 50%;
-      left: 50%;
+      //position: absolute;
+      //top: 50%;
+      //left: 50%;
       z-index: 2;
-      -ms-transform: translate(-50%, -50%);
-      -webkit-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
+      //-ms-transform: translate(-50%, -50%);
+      //-webkit-transform: translate(-50%, -50%);
+      //transform: translate(-50%, -50%);
       text-align: center;
       color: #735711;
       padding: 0 15px;
       width: 100%;
-      max-width: 880px;
+      //max-width: 880px;
 
     }
 

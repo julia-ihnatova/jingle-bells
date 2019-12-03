@@ -20,7 +20,20 @@ export default new Router({
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: 'black' }
       }
-    }
+    },
+      {
+          path: '/price',
+          name: 'index',
+          components: {
+              default: Starter,
+              header: StarterNavbar,
+              footer: StarterFooter
+          },
+          props: {
+              header: { colorOnScroll: 400 },
+              footer: { backgroundColor: 'black' }
+          }
+      }
   ],
   scrollBehavior: to => {
     if (to.hash) {

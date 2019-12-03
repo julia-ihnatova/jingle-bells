@@ -4,12 +4,8 @@
             v-bind="snowConf"
             :show="show"
     ></let-it-snow>
-    <div class="page-header page-header-small">
-      <parallax
-              class="page-header-image"
-              style="background-image: url('img/ourBg.jpg')"
-      >
-      </parallax>
+    <main-carousel-section></main-carousel-section>
+    <div class="page-header page-header-small absolute-title">
       <div class="content-center">
         <div class="container">
           <div class="top-title">
@@ -29,7 +25,8 @@
     </div>
     <div class="section section-team text-center">
       <div class="container">
-        <h2 class="text-center gold">  Мы создали услугу по созданию новогоднего настроения,<br> которая не имеет аналогов в городе Харьков</h2>
+        <h2 class="text-center gold">У нас есть всё для Нового года!</h2>
+        <!--<h2 class="text-center gold">  Мы создали услугу по созданию новогоднего настроения,<br> которая не имеет аналогов в городе Харьков</h2>-->
         <h2 class="gold"> Jingle bells... <span>Скоро Новый Год и мы уже приготовились - собрали милые игрушки
                     эксклюзивных производителей Европы и США, вдохновились работами лучших декораторов
                     мира, создали несоклько вариантов авторских ёлок, а для особых ценителей новогоднего
@@ -95,7 +92,7 @@
       <div class="container">
         <div class="row justify-center">
           <div class="col-md-4 text-center">
-            <a href="/price" class="main-link">Узнать цены</a>
+            <a href="#/price" class="main-link">Узнать цены</a>
           </div>
         </div>
         <h2 class="title text-center">Вдохновляемся!</h2>
@@ -173,6 +170,8 @@
 <script>
     import { Button, FormGroupInput } from '@/components';
     import { Tabs, TabPane } from '@/components';
+    import MainCarouselSection from './components/MainCarouselSection';
+    import { Parallax } from '@/components';
 
     export default {
         name: "Main",
@@ -182,6 +181,9 @@
             [FormGroupInput.name]: FormGroupInput,
             Tabs,
             TabPane,
+            Parallax,
+            MainCarouselSection
+
         },
         data() {
             return {
@@ -228,6 +230,18 @@
   .justify-center{
     margin-top: -45px;
     margin-bottom: 45px;
+  }
+
+  .absolute-title{
+    height: 500px;
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    z-index: 3;
+  }
+
+  .page-header .top-title{
+    margin-top: 20px;
   }
 
 </style>
