@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import Index from './pages/Index.vue';
 import Price from './pages/Price.vue';
+import Contact from './pages/Contact.vue';
 import MainFooter from './layout/MainFooter.vue';
 import OurNavbar from './layout/OurNavbar.vue';
 
@@ -39,6 +40,15 @@ export default new Router({
               footer: { backgroundColor: 'black' }
           }
     },
+      {
+          path: '/contact',
+          name: 'contact',
+          components: { default: Contact, header: OurNavbar, footer: MainFooter },
+          props: {
+              header: { colorOnScroll: 400 },
+              footer: { backgroundColor: 'black' }
+          }
+      },
     // {
     //   path: '/landing',
     //   name: 'landing',

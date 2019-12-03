@@ -17,6 +17,7 @@
     "vue-let-it-snow": "^1.0.0",
     "vue-router": "^3.0.2",
     "vue-snowf": "^0.0.2",
+    "vue2-google-maps": "^0.10.7",
     "vue2-transitions": "^0.2.3"
   },
   "devDependencies": {

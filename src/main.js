@@ -21,6 +21,14 @@ import router from './router';
 import NowUiKit from './plugins/now-ui-kit';
 import LetItSnow from 'vue-let-it-snow';
 
+import * as VueGoogleMaps from "vue2-google-maps";
+Vue.use(VueGoogleMaps, {
+    load: {
+        key: "AIzaSyC--CnDlHZ56dbGCf5b5Su_QpqOk2dzEko",
+        libraries: "places" // necessary for places input
+    }
+});
+
 Vue.config.productionTip = false;
 
 Vue.use(NowUiKit);

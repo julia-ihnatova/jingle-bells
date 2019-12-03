@@ -27,51 +27,50 @@
                             <img slot="label" src="img/decor/price/tree_tab.jpg">
 
                             <div class="col-md-12 pt-4">
-                                <div class="">
-                                    <div class="container">
-                                        <p class="description">
-                                            <span class="font-weight-bold">Представляем Вашему вниманию искусственные ели от европейского
-                                                производителя.</span><br>
-                                            Литые ели изготавливаются из современного прочного и нетоксичного полимера, что позволяет
-                                            сделать каждую хвоинку объемной. Иголки и ветки прекрасно держат форму, хвоя не осыпается, не
-                                            гнется под весом украшений, не склеивается и не повреждается при сборке-разборке ели и длительном
-                                            хранении. Ель будет идеально выглядеть десятилетиями!
-                                        </p>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <img src="img/decor/price/elka1.jpg">
-                                                <p class="title">Новогодняя ель искусственная Норвежская 450LED В183</p>
-                                                <p class="description">
-                                                    Цена: <span class="font-weight-bold">14 300грн</span>
-                                                </p>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <img src="img/decor/price/elka2.jpg">
-                                                <p class="title">
-                                                    Новогодняя ель искусственная Норвежская 750LED В274
-                                                </p>
-                                                <p class="description">
-                                                    Цена: <span class="font-weight-bold">43 200грн</span>
-                                                </p>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <img src="img/decor/price/elka3.jpg">
-                                                <p class="title">
-                                                    Новогодняя ель искусственная Дуглас Блю голубая В198
-                                                </p>
-                                                <p class="description">
-                                                    Цена: <span class="font-weight-bold">9 850грн</span>
-                                                </p>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <img src="img/decor/price/elka4.jpg">
-                                                <p class="title">
-                                                    Новогодняя ель искусственная Андорра заснеженная В213
-                                                </p>
-                                                <p class="description">
-                                                    Цена: <span class="font-weight-bold">9 850грн</span>
-                                                </p>
-                                            </div>
+                                <div class="container">
+                                    <h2 class="gold text-center">Искусственные ели</h2>
+                                    <p class="description">
+                                        <span class="font-weight-bold">Представляем Вашему вниманию искусственные ели от европейского
+                                            производителя.</span><br>
+                                        Литые ели изготавливаются из современного прочного и нетоксичного полимера, что позволяет
+                                        сделать каждую хвоинку объемной. Иголки и ветки прекрасно держат форму, хвоя не осыпается, не
+                                        гнется под весом украшений, не склеивается и не повреждается при сборке-разборке ели и длительном
+                                        хранении. Ель будет идеально выглядеть десятилетиями!
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <img src="img/decor/price/elka1.jpg">
+                                            <p class="title">Новогодняя ель искусственная Норвежская 450LED В183</p>
+                                            <p class="description">
+                                                Цена: <span class="font-weight-bold">14 300грн</span>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="img/decor/price/elka2.jpg">
+                                            <p class="title">
+                                                Новогодняя ель искусственная Норвежская 750LED В274
+                                            </p>
+                                            <p class="description">
+                                                Цена: <span class="font-weight-bold">43 200грн</span>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="img/decor/price/elka3.jpg">
+                                            <p class="title">
+                                                Новогодняя ель искусственная Дуглас Блю голубая В198
+                                            </p>
+                                            <p class="description">
+                                                Цена: <span class="font-weight-bold">9 850грн</span>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="img/decor/price/elka4.jpg">
+                                            <p class="title">
+                                                Новогодняя ель искусственная Андорра заснеженная В213
+                                            </p>
+                                            <p class="description">
+                                                Цена: <span class="font-weight-bold">9 850грн</span>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -84,6 +83,7 @@
                             <div class="col-md-12 pt-4">
                                 <div class="">
                                     <div class="container">
+                                        <h2 class="gold text-center">Ёлочные игрушки</h2>
                                         <p class="description">
                                             Дизайнерские новогодние елочные игрушки из стекла, металла,
                                             фарфора, с покрытием золотом и серебром. Тончайшая ручная работа,
@@ -282,13 +282,15 @@
                             <div class="col-md-12 pt-4">
                                 <div class="">
                                     <div class="container">
-                                        <p class="description">
-                                            <span class="font-weight-bold">Представляем Вашему вниманию искусственные ели от европейского
-                                                производителя.</span><br>
-                                            Литые ели изготавливаются из современного прочного и нетоксичного полимера, что позволяет
-                                            сделать каждую хвоинку объемной. Иголки и ветки прекрасно держат форму, хвоя не осыпается, не
-                                            гнется под весом украшений, не склеивается и не повреждается при сборке-разборке ели и длительном
-                                            хранении. Ель будет идеально выглядеть десятилетиями!
+                                        <h2 class="gold text-center">Наши услуги</h2>
+                                        <p>Создание дизайна новогодней елки.</p>
+                                        <p>Поиск, подборка и закупка новогодней атрибутики для ели (елочные украшения, гирлянды и т.д.)</p>
+                                        <p>Поиск и подбор самого дерева</p>
+                                        <p>Доставка и установка ели.</p>
+
+                                        <p>Мы создаем индивидуальный дизайн Новогодних елок </p>
+                                        <p>
+                                           По запросу высылаем прайс look'а ели в зависимости от высоты выбранной ёлки.
                                         </p>
                                     </div>
                                 </div>

@@ -13,12 +13,33 @@
     </template>
     <template slot="navbar-menu">
       <li class="nav-item">
+        <p class="font-weight-bold p-2">+38 098 930 27 28</p>
+      </li>
+      <li class="nav-item">
+        <a
+                class="nav-link"
+                href="/"
+        >
+          <!--&lt;!&ndash;<i class="now-ui-icons arrows-1_cloud-download-93"></i>&ndash;&gt;-->
+          <p>Главная</p>
+        </a>
+      </li>
+      <li class="nav-item">
         <a
           class="nav-link"
           href="#/price"
         >
           <!--&lt;!&ndash;<i class="now-ui-icons arrows-1_cloud-download-93"></i>&ndash;&gt;-->
           <p>Прайс</p>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a
+                class="nav-link"
+                href="#/contact"
+        >
+          <!--&lt;!&ndash;<i class="now-ui-icons arrows-1_cloud-download-93"></i>&ndash;&gt;-->
+          <p>Контакты</p>
         </a>
       </li>
       <!--<drop-down-->
@@ -68,19 +89,19 @@
           <!--<p class="d-lg-none d-xl-none">Twitter</p>-->
         <!--</a>-->
       <!--</li>-->
-      <li class="nav-item">
-        <a
-          class="nav-link"
-          rel="tooltip"
-          title="Like us on Facebook"
-          data-placement="bottom"
-          href="#"
-          target="_blank"
-        >
-          <i class="fab fa-facebook-square"></i>
-          <p class="d-lg-none d-xl-none">Facebook</p>
-        </a>
-      </li>
+      <!--<li class="nav-item">-->
+        <!--<a-->
+          <!--class="nav-link"-->
+          <!--rel="tooltip"-->
+          <!--title="Like us on Facebook"-->
+          <!--data-placement="bottom"-->
+          <!--href="#"-->
+          <!--target="_blank"-->
+        <!--&gt;-->
+          <!--<i class="fab fa-facebook-square"></i>-->
+          <!--<p class="d-lg-none d-xl-none">Facebook</p>-->
+        <!--</a>-->
+      <!--</li>-->
       <li class="nav-item">
         <a
           class="nav-link"

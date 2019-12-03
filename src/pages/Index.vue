@@ -10,14 +10,15 @@
         <div class="container">
           <div class="top-title">
             <h1 class="title top-header">Новогодние авторские ёлки</h1>
-            <h2>от PremiumArtStudio</h2>
+            <h2>от NikasDecor <small>by PremiumArtStudio</small></h2>
+            <!--<p class="top-header"></p>-->
           </div>
           <div class="text-center">
+            <!--<a href="#" class="btn btn-primary btn-icon btn-round">-->
+              <!--<i class="fab fa-facebook-square"></i>-->
+            <!--</a>-->
             <a href="#" class="btn btn-primary btn-icon btn-round">
-              <i class="fab fa-facebook-square"></i>
-            </a>
-            <a href="#" class="btn btn-primary btn-icon btn-round">
-              <i class="fab fa-google-plus"></i>
+              <i class="fab fa-instagram"></i>
             </a>
           </div>
         </div>
@@ -32,7 +33,14 @@
                     мира, создали несоклько вариантов авторских ёлок, а для особых ценителей новогоднего
                     настроения и чего-то новенького подготовили увлекательную программу по украшению ёлки
                     с Вашими близкими.</span></h2>
-        <div class="team">
+
+          <div class="row justify-center my-4">
+              <div class="col-md-4 text-center">
+                  <a href="#/contact" class="main-link">Связяться с нами</a>
+              </div>
+          </div>
+
+          <div class="team">
           <div class="row">
             <div class="col-md-4">
               <div class="team-player">
@@ -90,7 +98,7 @@
     </div>
     <div class="section section-show-decor">
       <div class="container">
-        <div class="row justify-center">
+        <div class="row justify-center price-link">
           <div class="col-md-4 text-center">
             <a href="#/price" class="main-link">Узнать цены</a>
           </div>
@@ -227,7 +235,7 @@
       font-size: 24px;
   }
 
-  .justify-center{
+  .price-link{
     margin-top: -45px;
     margin-bottom: 45px;
   }

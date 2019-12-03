@@ -10,19 +10,19 @@
             <el-carousel-item>
               <img class="d-block" src="img/carousel/ourBg.jpg" alt="First slide" />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Nature, United States</h5>
+                <!--<h5>Nature, United States</h5>-->
               </div>
             </el-carousel-item>
             <el-carousel-item>
               <img class="d-block" src="img/carousel/gray-blue-01.jpg" alt="Second slide" />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Somewhere Beyond, United States</h5>
+                <!--<h5>Somewhere Beyond, United States</h5>-->
               </div>
             </el-carousel-item>
             <el-carousel-item>
               <img class="d-block" src="img/carousel/christmas_tree_mint_008.jpg" alt="Third slide" />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Yellowstone National Park, United States</h5>
+                <!--<h5>Yellowstone National Park, United States</h5>-->
               </div>
             </el-carousel-item>
           </el-carousel>
