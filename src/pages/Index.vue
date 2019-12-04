@@ -17,7 +17,7 @@
             <!--<a href="#" class="btn btn-primary btn-icon btn-round">-->
               <!--<i class="fab fa-facebook-square"></i>-->
             <!--</a>-->
-            <a href="#" class="btn btn-primary btn-icon btn-round">
+            <a href="https://www.instagram.com/nikasdecor/"  target="_blank" class="btn btn-primary btn-icon btn-round">
               <i class="fab fa-instagram"></i>
             </a>
           </div>
@@ -88,7 +88,7 @@
                 <h2 class="title">Уборка ёлки после праздника</h2>
                 <!--<p class="category text-primary">Fashion</p>-->
                 <p class="description">
-                  Послепраздничный ритуал выхода в новый год сохраняя прекрастное настроение.
+                  Послепраздничный ритуал выхода в новый год сохраняя прекрасное настроение.
                 </p>
               </div>
             </div>

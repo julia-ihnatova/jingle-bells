@@ -108,7 +108,7 @@
           rel="tooltip"
           title="Follow us on Instagram"
           data-placement="bottom"
-          href="#"
+          href="https://www.instagram.com/nikasdecor/"
           target="_blank"
         >
           <i class="fab fa-instagram"></i>

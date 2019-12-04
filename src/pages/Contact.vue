@@ -18,7 +18,7 @@
                 <div class="row">
                     <div class="col-10">
                         <p>Приглашаем Вас к нам в студию по адресу г. Харьков, ул. Гольдберговская, 9.<br>
-                            За чаем с печеньем продолжим создание Вашего Новогоднего пространства </p>
+                            За чаем с печеньем продолжим создание Вашего проекта Новогоднего пространства </p>
                     </div>
                 </div>
                 <div class="row">
@@ -40,15 +40,24 @@
                             >
                                 <i class="fab fa-telegram"></i>
                             </a>
+
                             <a href="viber://add?number=+380989302728" v-if="isMobile()">
                                 <i class="fab fa-viber"></i>
                             </a>
-
-
                             <a title="Должен быть установлен Viber для ПК" v-if="!isMobile()"
                                href="viber://chat?number=+380989302728"
                                target="_blank">
                                 <i class="fab fa-viber"></i>
+                            </a>
+
+                            <a
+                                    class="ml-5"
+                                    rel="tooltip"
+                                    title="Connect INstagram"
+                                    href="https://www.instagram.com/nikasdecor/"
+                                    target="_blank"
+                            >
+                                <i class="fab fa-instagram"></i>
                             </a>
                         </div>
 
