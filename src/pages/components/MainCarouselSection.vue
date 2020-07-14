@@ -1,34 +1,19 @@
 <template>
   <div class="" id="carousel">
-    <!--<div class="container">-->
-      <!--<div class="title">-->
-        <!--<h4>Carousel</h4>-->
-      <!--</div>-->
-      <!--<div class="row justify-content-center">-->
-        <!--<div class="col-12">-->
-          <el-carousel height="500px" :interval="5000">
-            <el-carousel-item>
-              <img class="d-block" src="img/carousel/ourBg.jpg" alt="First slide" />
-              <div class="carousel-caption d-none d-md-block">
-                <!--<h5>Nature, United States</h5>-->
-              </div>
-            </el-carousel-item>
-            <el-carousel-item>
-              <img class="d-block" src="img/carousel/gray-blue-01.jpg" alt="Second slide" />
-              <div class="carousel-caption d-none d-md-block">
-                <!--<h5>Somewhere Beyond, United States</h5>-->
-              </div>
-            </el-carousel-item>
-            <el-carousel-item>
-              <img class="d-block" src="img/carousel/christmas_tree_mint_008.jpg" alt="Third slide" />
-              <div class="carousel-caption d-none d-md-block">
-                <!--<h5>Yellowstone National Park, United States</h5>-->
-              </div>
-            </el-carousel-item>
-          </el-carousel>
-        <!--</div>-->
-      <!--</div>-->
-    <!--</div>-->
+      <el-carousel :interval="5000">
+        <el-carousel-item>
+          <img class="d-block" src="img/carousel/ourBg.jpg" alt="First slide" />
+          <div class="carousel-caption d-none d-md-block"></div>
+        </el-carousel-item>
+        <el-carousel-item>
+          <img class="d-block" src="img/carousel/gray-blue-01.jpg" alt="Second slide" />
+          <div class="carousel-caption d-none d-md-block"></div>
+        </el-carousel-item>
+        <el-carousel-item>
+          <img class="d-block" src="img/carousel/christmas_tree_mint_008.jpg" alt="Third slide" />
+          <div class="carousel-caption d-none d-md-block"></div>
+        </el-carousel-item>
+      </el-carousel>
   </div>
 </template>
 <script>
@@ -46,5 +31,14 @@ export default {
   #carousel img{
     object-fit: cover;
     width: 100%;
+    height: 100%;
+  }
+
+  .el-carousel{
+    height: 620px;
+  }
+
+  .el-carousel__container{
+    height: 100%;
   }
 </style>

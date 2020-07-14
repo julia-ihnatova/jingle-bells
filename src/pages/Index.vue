@@ -14,9 +14,6 @@
             <!--<p class="top-header"></p>-->
           </div>
           <div class="text-center">
-            <!--<a href="#" class="btn btn-primary btn-icon btn-round">-->
-              <!--<i class="fab fa-facebook-square"></i>-->
-            <!--</a>-->
             <a href="https://www.instagram.com/nikasdecor/"  target="_blank" class="btn btn-primary btn-icon btn-round">
               <i class="fab fa-instagram"></i>
             </a>
@@ -50,7 +47,6 @@
                         class="rounded-circle img-fluid img-raised"
                 />
                 <h2 class="title">Создадим полный look ёлки</h2>
-                <!--<p class="category text-primary">Model</p>-->
                 <p class="description text-left">
                   Поможем приобрести елку, игрушки и новогодний декор у производителей Европы и США
                   по наилучшим ценам в Украине.<br><br>
@@ -66,7 +62,6 @@
                         class="rounded-circle img-fluid img-raised"
                 />
                 <h2 class="title">Украсим ёлку</h2>
-                <!--<p class="category text-primary">Designer</p>-->
                 <p class="description text-left">
                   Наша команда справится с этим занятием за несколько часов вместо Вас, если
                   вдруг Вы не находите времени для этого действа.<br><br>
@@ -86,7 +81,6 @@
                         class="rounded-circle img-fluid img-raised"
                 />
                 <h2 class="title">Уборка ёлки после праздника</h2>
-                <!--<p class="category text-primary">Fashion</p>-->
                 <p class="description">
                   Послепраздничный ритуал выхода в новый год сохраняя прекрасное настроение.
                 </p>
@@ -105,6 +99,9 @@
         </div>
         <h2 class="title text-center">Вдохновляемся!</h2>
         <div class="row">
+          <p class="text-center"> Мы взяли за основу три варианта классического оформления Новогодней ели.
+            Дали им имена Paris, London, Wien и подобрали соответствующие игрушки и декор.
+          </p>
           <tabs
                   pills
                   class="nav-align-center"
@@ -114,8 +111,6 @@
           >
             <tab-pane title="Profile">
               <p slot="label" class="now-ui-icons">Paris</p>
-              <!--<i slot="label" class="now-ui-icons design_image"></i>-->
-
               <div class="col-md-10 ml-auto mr-auto">
                 <div class="row collections">
                   <div class="col-md-6">
@@ -132,8 +127,6 @@
 
             <tab-pane title="Home">
                 <p slot="label" class="now-ui-icons">Wien</p>
-              <!--<i slot="label" class="now-ui-icons location_world"></i>-->
-
               <div class="col-md-10 ml-auto mr-auto">
                 <div class="row collections">
                   <div class="col-md-6">
@@ -150,8 +143,6 @@
 
             <tab-pane title="Messages">
                 <p slot="label" class="now-ui-icons">London</p>
-              <!--<i slot="label" class="now-ui-icons sport_user-run"></i>-->
-
               <div class="col-md-10 ml-auto mr-auto">
                 <div class="row collections">
                   <div class="col-md-6">
@@ -167,11 +158,8 @@
             </tab-pane>
           </tabs>
         </div>
-
       </div>
-
     </div>
-
   </div>
 </template>
 
@@ -251,5 +239,7 @@
   .page-header .top-title{
     margin-top: 20px;
   }
+
+
 
 </style>
